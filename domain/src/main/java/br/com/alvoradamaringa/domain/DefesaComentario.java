@@ -9,5 +9,9 @@ public class DefesaComentario extends DefesaComentarioDAOImpl {
     public void adicionarComentario(String comentario) {
         this.comentario = comentario;
     }
+    
+    public void professorCurso(ProfessorCurso professorCurso) {
+        this.professorCurso = professorCurso;
+    }
 
 }
