@@ -1,32 +1,32 @@
 package br.com.alvoradamaringa.domain;
 
 public class ProfessorCurso {
-	private Integer idProfessorCurso;
-	private Integer idCurso;
-	private Integer idProfessor
+	private Long idProfessorCurso;
+	private Curso curso;
+	private Professor professor;
 		
-	public Integer getIdProfessorCurso(){
+	public Long getIdProfessorCurso(){
 		return idProfessorCurso;
 	}
 	
-	public void setIdProfessorCurso(Integer idProfessorCurso){
+	public void setIdProfessorCurso(Long idProfessorCurso){
 		this.idProfessorCurso = idProfessorCurso;
 	}
 	
-	public Integer getIdCurso(){
-		return idCurso;
+	public Curso getCurso(){
+		return curso;
 	}
 	
-	public void setIdCurso(Integer idCurso){
-		this.idCurso = idCurso;
+	public void setCurso(Curso curso){
+		this.curso = curso;
 	}
 	
-	public Integer getIdProfessor(){
-		return idProfessor;
+	public Professor getProfessor(){
+		return professor;
 	}
 	
-	public void setIdProfessor(Integer idProfessor){
-		this.idProfessor = idProfessor;
+	public void setProfessor(Professor professor){
+		this.professor = professor;
 	}
 	
 }
