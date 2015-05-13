@@ -1,8 +1,7 @@
 package br.com.alvoradamaringa.persistence;
 
-import br.com.alvoradamaringa.domain;
-
 public class ProfessorCursoDAOImpl extends GenericDAOImpl<Long, ProfessorCurso> implements ProfessorCursoDAO {
+<<<<<<< HEAD
   
 <<<<<<< HEAD
    public void consultar(Long idProfessor){
@@ -12,5 +11,11 @@ public class ProfessorCursoDAOImpl extends GenericDAOImpl<Long, ProfessorCurso> 
 >>>>>>> origin/correção
      
    }
+=======
+
+	public void consultar(Long idProfessor) {
+
+	}
+>>>>>>> 2188b6f... DAO update
 
 }
