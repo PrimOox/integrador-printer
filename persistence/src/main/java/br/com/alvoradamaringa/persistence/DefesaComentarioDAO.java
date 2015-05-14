@@ -7,6 +7,7 @@ import java.util.List;
 public interface DefesaComentarioDAO extends GenericDAO<Long, DefesaComentario> {
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     public List<DefesaComentario> consultar(String comentario) {
         return null;
     }
@@ -18,5 +19,8 @@ public interface DefesaComentarioDAO extends GenericDAO<Long, DefesaComentario> 
 
 	public void consultar(String comentario);
 >>>>>>> 2188b6f... DAO update
+=======
+    public void consultar(String comentario);
+>>>>>>> alvoradamaringa/integrador
 
 }

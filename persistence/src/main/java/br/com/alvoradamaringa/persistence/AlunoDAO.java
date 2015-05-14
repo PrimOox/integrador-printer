@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 public interface AlunoDAO extends GenericDAO<Long, Aluno>{
 
   public void consultar(long idAluno, pessoa idPessoa, String Ra);
@@ -10,10 +11,15 @@ package br.com.alvoradamaringa.persistence;
 package br.com.alvoradamaringa.persistence;
 
 >>>>>>> 2188b6f... DAO update
+=======
+package br.com.alvoradamaringa.persistence;
+
+>>>>>>> alvoradamaringa/integrador
 import br.com.alvoradamaringa.domain;
 
 public interface AlunoDAO extends GenericDAO<Long, Aluno> {
 
+<<<<<<< HEAD
 <<<<<<< HEAD
     public void consultarAluno();
 
@@ -21,4 +27,8 @@ public interface AlunoDAO extends GenericDAO<Long, Aluno> {
 =======
 	public void consultar(long idAluno, pessoa idPessoa, String Ra);
 >>>>>>> 2188b6f... DAO update
+=======
+	public void consultar(long idAluno, pessoa idPessoa, String Ra);
+	
+>>>>>>> alvoradamaringa/integrador
 }

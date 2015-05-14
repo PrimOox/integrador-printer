@@ -4,9 +4,12 @@ package br.com.alvoradamaringa.persistence;
 import br.com.alvoradamaringa.domain;
 
 public interface PesquisaTipoTccDAO extends GenericDAO<Long, PesquisaTipoTcc> {
+<<<<<<< HEAD
     
 =======
 public interface PesquisaTipoTccDAO extends GenericDAO<Long, PesquisaTipoTcc> {
 	
 >>>>>>> 2188b6f... DAO update
+=======
+>>>>>>> alvoradamaringa/integrador
 }
