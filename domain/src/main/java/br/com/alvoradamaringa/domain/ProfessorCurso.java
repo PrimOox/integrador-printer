@@ -1,9 +1,19 @@
 package br.com.alvoradamaringa.domain;
-
+@Entity
+@Table(name="PROFESSOR_CURSO")
 public class ProfessorCurso {
-	
-	private Long idProfessorCurso;
+    
+	@Id
+        @GeneratedValue(strategy = GenerationType.IDENTITY)
+	@Column(name = "ID_PROFESSOR_CURSO")
+        private Long idProfessorCurso;
+        
+        @ManyToOne
+        @JoinColumn(name = "ID_CURSO")
 	private Curso curso;
+        
+        @ManyToOne
+        @JoinColumn(name = "ID_PROFESSOR")
 	private Professor professor;
 	
 	public void adicionarProfessor(Professor professor) {
