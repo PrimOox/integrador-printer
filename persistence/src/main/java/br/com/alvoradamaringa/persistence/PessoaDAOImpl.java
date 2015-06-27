@@ -1,11 +1,17 @@
 package br.com.alvoradamaringa.persistence;
 
-import br.com.alvoradamaringa.domain;
+import java.util.List;
 
-public class PessoaDAOImpl extends GenericDAOImpl<Long, Pessoa> implements PessoaDAO {
+import javax.ejb.Stateless;
 
-	public List<Pessoa> consultar(String nome, String cpf){
-    		return null;
-  	}
+import br.com.alvoradamaringa.domain.Pessoa;
+
+@Stateless
+public class PessoaDAOImpl extends GenericDAOImpl<Long, Pessoa> implements
+		PessoaDAO {
+
+	public List<Pessoa> consultar(String nome, String cpf) {
+		return null;
+	}
 
 }

@@ -1,7 +1,15 @@
 package br.com.alvoradamaringa.persistence;
 
-import br.com.alvoradamaringa.domain;
+import java.util.List;
 
-public class PesquisaTipoTccDAOImpl extends GenericDAOImpl<Long, Pessoa> implements PesquisaTipoTccDAO {
+import javax.ejb.Stateless;
 
+import br.com.alvoradamaringa.domain.PesquisaTipoTcc;
+
+@Stateless
+public class PesquisaTipoTccDAOImpl extends GenericDAOImpl<Long, PesquisaTipoTcc> implements PesquisaTipoTccDAO {
+
+	public List<PesquisaTipoTcc> consultar(String descricao) {
+		return null;
+	}
 }

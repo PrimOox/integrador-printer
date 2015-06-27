@@ -1,10 +1,17 @@
 package br.com.alvoradamaringa.persistence;
 
-import br.com.alvoradamaringa.domain;
+import java.util.List;
 
+import javax.ejb.Local;
+
+import br.com.alvoradamaringa.domain.NivelUsuario;
+import br.com.alvoradamaringa.domain.Usuario;
+
+@Local
 public interface UsuarioDAO extends GenericDAO<Long, Usuario> {
 
-	public void consultar(String login, String nome){
-    
-    }
+	Usuario consultar(String usuario, String senha);
+	
+	List<Usuario> consultarUsuario(String nome, NivelUsuario nivelUsuario);
+	
 }

@@ -1,7 +1,10 @@
 package br.com.alvoradamaringa.persistence;
 
-import br.com.alvoradamaringa.domain;
+import javax.ejb.Local;
 
+import br.com.alvoradamaringa.domain.NivelUsuario;
+
+@Local
 public interface NivelUsuarioDAO extends GenericDAO<Long, NivelUsuario> {
 
 }
