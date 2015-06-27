@@ -1,3 +1,10 @@
+<<<<<<< HEAD
 *.class
 *.prefs
 .project
+=======
+persistence/src/main/java/br/com/alvoradamaringa/persistence/CursoDAO.java
+persistence/src/main/java/br/com/alvoradamaringa/persistence/CursoDAO.java
+persistence/src/main/java/br/com/alvoradamaringa/persistence/AlunoCursoDAOImpl.java
+persistence/src/main/java/br/com/alvoradamaringa/persistence/AlunoCursoDAOImpl.java
+>>>>>>> 3972c72511c970df159c2f4d3e4384c744d828ab
